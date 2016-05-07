@@ -1,0 +1,4 @@
+C, 77, George CuKor, Holiday!, Katherine Lange 11 1997
+C, 999, Norm MacDonald, Dirty Work, Artie Lange 11 1997
+C, 32, Kevin Farely, Zumb and Dumber, Jim Carrey, 9 1995
+C, 98, Broken Lizard, Super Troopers, Sanjay Gupta, 2 2000
