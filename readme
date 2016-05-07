@@ -1,0 +1,13 @@
+This system uses a driver (assignment4driver.cpp), a business layer, and factories for movies and commands to
+accomplish the requirements specified for this assignment. The driver reads in each line from an
+input file and passes the line to the appropriate factory. However, we chose not to include a
+customer factory, because there is only one class of customer, so the driver creates customers
+directly.
+
+Movies are stored in a linked list of binary trees, with each node of the list representing a
+different category. We chose this design to maintain the order specified in the assignment while
+allowing each list to use different overloaded comparison methods to account for different
+search procedures. Customer information is stored in a hashmap for fast lookup. Customer
+history is stored in a linked list associated with each customer object. We chose a linked list
+because the only command to be executed on the linked list is to print it in order, and a linked
+list is sufficient for this procedure.
